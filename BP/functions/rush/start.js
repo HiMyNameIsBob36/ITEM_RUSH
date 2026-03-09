@@ -4,4 +4,4 @@ tp @a[tag=runner] @e[name=rush.spawn]
 execute at @e[name=rush.spawn] run spreadplayers ~ ~ 2 5 @a[tag=hunter]
 playsound
 
-scoreboard
+scoreboard players random item rushDB 1 10
